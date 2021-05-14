@@ -1,0 +1,98 @@
+.body {
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    color: #434146;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Top Navbar/Header  */
+#navDiv {
+    color: white;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 40px;
+}
+
+.navbar ul {
+    margin: 0 0 0 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.navbar li {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+}
+
+/* KAST Logo */
+.kast-logo {
+    position: relative;
+    z-index: 1;
+    width: 201px;
+    height: auto;
+}
+
+/* Main section */
+#primary {
+    background-color: #331a5c;
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#intro-block {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 20pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#laptop-image {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+/* Grid Section */
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* What Is Kast Section*/
+#whatIs {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/green-bg.jpg);
+    color: white;
+}
